@@ -1,0 +1,43 @@
+{
+    "version": 1,
+    "info": {
+        "title": "Custom Block",
+        "author": "Test User",
+        "description": "Custom block example",
+        "name": "Custom block",
+        "cppType": "custom_block",
+        "preferConvolution": false,
+        "visualization": "dimensionalityReduction",
+        "experimental": false,
+        "hasTfliteImplementation": false,
+        "latestImplementationVersion": 1
+    },
+    "parameters": [
+        {
+            "group": "Method",
+            "items": [
+                {
+                    "name": "Average",
+                    "value": true,
+                    "type": "boolean",
+                    "help": "Calculates the average value for the window",
+                    "param": "average"
+                },
+                {
+                    "name": "Minimum",
+                    "value": true,
+                    "type": "boolean",
+                    "help": "Calculates the minimum value in the window",
+                    "param": "minimum"
+                },
+                {
+                    "name": "Maximum",
+                    "value": true,
+                    "type": "boolean",
+                    "help": "Calculates the maximum value in the window",
+                    "param": "maximum"
+                }
+            ]
+        }
+    ]
+}
